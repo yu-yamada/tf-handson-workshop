@@ -9,7 +9,7 @@ provider "google" {
 }
 
 resource "google_compute_instance" "vm_instance" {
-    name = "terraform-instance-${count.index}-yu"
+    name = "terraform-instance-${count.index}-yu1"
     count = var.hello_tf_instance_count
     machine_type = var.machine_type
     zone = "asia-northeast1-a"
